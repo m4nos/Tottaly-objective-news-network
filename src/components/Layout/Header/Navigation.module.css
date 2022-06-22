@@ -1,0 +1,27 @@
+.nav {
+  padding: 2.5rem 0;
+  text-align: left;
+}
+
+.nav__logo {
+  background-image: url('../../../assets/logo.png');
+  background-size: 110px 32px;
+  width: 110px;
+  height: 32px;
+}
+
+.nav__links {
+  padding-top: 2.5rem;
+}
+.nav__links a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.nav__links a:hover {
+  border-bottom: red solid;
+}
+.nav__links a:not(:last-child) {
+  margin-right: 3.2rem;
+}
